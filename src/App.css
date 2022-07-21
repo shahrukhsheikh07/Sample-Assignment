@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+*{
+    font-family: muli;
+    
+}
+.nav {
+    display: flex;
+    margin: 0% 65%;
+    /* background-color: white  !important; */
+}
+
+.nav-item {
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    /* background-color: white  !important; */
+}
+.menu-active {
+    font-family: bold;
+    border-bottom: 1px solid #565387;
+    background-color: red;
+}
+.nav-item  a {
+    color: rgba(55, 55, 228, 0.641);
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.nav-item  a:hover {
+    font-family: bold;
+   
+    border-bottom: 1px solid #565387;
+   
+}
+.brand-name {
+    display: flex;
+    color: rgba(55, 55, 228, 0.641);
+    font-size: 2.5rem;
+}
+.img-fluid-animated {
+    height: 60%;
+    margin: 1% 25%;
+    width: 80%;
+    transition: 0.5 s;
+}
+.row {
+    display: flex;
+    height: 100%;
+    margin: 5% 0%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand {
+    display: flex;
+    font-size: 2.25rem;
+    color: rgba(55, 55, 228, 0.641);
+    font-weight: 600;
+}
+.navbar-br {
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-br a {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.25rem;
+    padding: 15% 0%;
+    height: 100%;
+    width: 100%;
+}
+#header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+#header h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#header .btn-get-started {
+    font-weight: 500;
+    font-size: .8rem;
+    letter-spacing: 1px; 
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px ;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: rgba(55, 55, 228, 0.641);
+    border: 2px solid rgba(55, 55, 228, 0.641);
+}
+.navbar-toggler {
+    display: flex;
+    margin: -22% 192%;
+}
+#header .btn-get-started:hover {
+    color: #fff;
+    background-color: rgba(55, 55, 228, 0.641);
+}
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
